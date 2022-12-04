@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+    <style>
+        body{background-color: cyan;}
+        h1{text-align: center;
+        background-color: rgba(7, 107, 85, 0.666);}
+        span{
+            font-size: 30px;
+            color: rgb(209, 91, 22);
+        }
+        .inner{font-weight: 600; font-size: none;}
+        .nest{font-style: oblique; font-size: none;}
+    </style>
+</head>
+<body>
+    <h1>Lists</h1>
+    <ol type="I" class="outer">
+        <li><span>Background Skills</span>
+            <ol type="A" class="inner">
+                <li>Unix Commands</li>
+                <li>Vim Text Editors</li>
+            </ol>
+        </li>
+        <li><span>HTML</span>
+            <ol type="A" class="inner">
+                <li>Minimal Page</li>
+                <li>Headings</li>
+                <li>Elements</li>
+                <li>Lists
+                    <ol type="i" class="nest">
+                        <li>Unordered</li>
+                        <li>Ordered</li>
+                        <li>Definition</li>
+                        <li>Nested</li>
+                    </ol>
+                </li>
+                <li>Links
+                    <ol type="i" class="nest">
+                        <li>Absolute</li>
+                        <li>Relative</li>
+                    </ol>
+                </li>
+                <li>Images</li>
+            </ol>
+        </li>
+        <li><span>CSS</span>
+             <ol type="A" class="inner">
+                <li>Anatomy</li>
+                <li>Basic Selectors
+                    <ol type="i" class="nest">
+                        <li>Element</li>
+                        <li>Class</li>
+                        <li>ID</li>
+                        <li>Group</li>
+                    </ol>
+                </li>
+                <li>The DOM</li>
+                <li>Advanced Selector</li>
+                <li>Box Model</li>
+             </ol>
+        </li>
+    </ol>
+</body>
+</html>
